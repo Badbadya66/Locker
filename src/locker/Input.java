@@ -22,10 +22,10 @@ public class Input {
         String username = scanner.next();
         System.out.print("Enter password => ");
         String password = scanner.next();
-        for(int i = 0; i < 10; i++) {
-            if(lockers[i].isUserCorrect("")) {
-
-            }
-        }
+//        for(int i = 0; i < 10; i++) {
+//            if(lockers[i].isUserCorrect("")) {
+//
+//            }
+//        }
     }
 }
