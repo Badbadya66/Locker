@@ -15,11 +15,19 @@ import java.util.concurrent.TimeUnit;
  */
 public class TestLocker {
     public static void main(String[] args) {
-        Date firstTime = new Date();
-         Date pickupTime = new Date();
-            long diff = pickupTime.getTime() - firstTime.getTime();//as given
-            long seconds = TimeUnit.MILLISECONDS.toSeconds(diff);
-            System.out.println(seconds);
+        Input input = new Input();
+        while(true) {
+            System.out.println("Welcome to locker software");
+            System.out.println("\n1. Check-in to locker");
+            System.out.println("\n2. Check-out to locker");
+            System.out.println("");
+            input.addUser2Locker();
+        }
+//        Date firstTime = new Date();
+//        Date pickupTime = new Date();
+//        long diff = pickupTime.getTime() - firstTime.getTime();//as given
+//        long seconds = TimeUnit.MILLISECONDS.toSeconds(diff);
+//        System.out.println(seconds);
 //        while(true) {
 //            Scanner scanner = new Scanner(System.in);
 //            scanner.nextInt();
